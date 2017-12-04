@@ -1,0 +1,364 @@
+/* Header */
+nav {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+}
+strong {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  color: #646262;
+}
+span {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  color: #8C8A8A;
+  font-weight: 300;
+}
+
+header {
+  padding: 1rem 1.5rem 1rem .6rem;
+  background-color: #fff;
+  margin: 0;
+}
+header .desktop {
+  display: flex;
+  align-items: center;
+}
+header .logo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+  width: 60px;
+  height: 60px;
+}
+a {
+  color: #646262;
+}
+header li {
+  display: inline-block;
+  padding-right: 16px;
+}
+header li:last-child {
+  padding-right: 0;
+}
+header .mobile {
+  display: ;
+}
+
+/* Learn */
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  color: #646262;
+  line-height: 1.2;
+}
+p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #646262;
+  padding-top: 5px;
+}
+
+.container-learn {   /* GREY BOX */
+  background-color: #C3BEBE;
+  height: 565px;
+  width: 100%;
+  display: flex;
+}
+.study-image img {  /* IMAGE */
+  height: 500px;
+  margin-top: 32px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.learn {   /* COPY */
+  margin-top: 180px;
+  height: 300px;
+}
+.btn {   /* BUTTON */
+  background-color: #646262;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 270px;
+}
+.btn a {  /* BTN LINK */
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* It doesn't hurt... */
+
+.it-container{  /* Section container */
+  width: 100%;
+  display: flex;
+}
+.it-section {  /* Emanuel image width */
+  width: 60%;
+}
+
+.emanuel img { /* Emanuel image */
+  width: 100%;
+  margin-top: 32px;
+  margin-left: 24px;
+}
+.it-copy {  /* Emanuel copy */
+  margin-top: 32px;
+  margin-left: 24px;
+}
+
+/* 3-sections/right */
+
+.supporting-content {   /* Total section container */
+  border-left: 1px solid #C3BEBE;
+  margin-left: 48px;
+  width: 40%;
+  padding-bottom: 32px;
+}
+.dsktop-campus {
+  display: flex;
+  height: 140px;
+  padding-bottom: 40px;
+  border-top: 1px solid #C3BEBE;
+  margin-top: 2px;
+}
+.dsktop-orient {
+  border-bottom: 1px solid #C3BEBE;
+  display: flex;
+  height: 160px;
+  padding-bottom: 40px;
+}
+.dsktop-guest {
+  display: flex;
+  height: 140px;
+  padding-bottom: 40px;
+  background-color: #C3BEBE;
+}
+.text-content {  /* Text in 3-section */
+  width: 100%;
+  height: 100px;
+  margin-top: 55px;
+  padding-left: 35px;
+}
+
+
+/* Section 1 */
+
+.desktop-orient {
+  width: 100%;
+  height: auto;
+  margin-top: 32px;
+  margin-left: 16px;
+}
+.desktop-campus {
+  width: 100%;
+  height: auto;
+  margin-top: 11px;
+  margin-left: 16px;
+}
+.desktop-guest {
+  width: 100%;
+  height: auto;
+  margin-top: 11px;
+  margin-left: 16px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 760px) {
+  .mobile {
+    display:block;
+  }
+  .desktop {
+    display: none;
+  }
+  .it-section {
+    display: none;
+  }
+}
+
+
+.text-content a {   /* Copy a href */
+  color: #4CB0ED;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  line-height: 2.5;
+}
+h4, footer a {
+  color: #646262;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.3;
+}
+h4 {
+  color: #646262;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* Start Learning Section */
+
+.lrn-container {   /* Total Section Container */
+  width: 100%;
+  height: 800px;
+  background-color: #C3BEBE;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.row2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+.softwareca {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  float: left;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.softwareba {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  float: left;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.lrn-copy {  /* H/L Text */
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.software {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  float: left;
+}
+.sft-eng {
+  width: 100%;
+  height: auto;
+}
+
+.text-learn {
+  width: 250px;
+  height: 100px;
+  margin-top: 5px;
+  padding-left: 16px;
+}
+
+/* Thesis (VIDEO) section */
+.thesis-headline {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.video {
+  width: 630px;
+  height: 450px;
+  margin-left: 24px;
+}
+.media-container {
+  display: flex;
+}
+.video-container {
+  width: 60%;
+}
+.media-container video {
+  width: 100%;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.video-text {
+  margin-left: 24px;
+  margin-top: 16px;
+  width: 60%;
+}
+.content-image-box {
+  width: 35%;
+}
+.fisma-container {
+  width: 40%;
+}
+.media-container img {
+  width: 100%;
+  height: auto;
+}
+.fisma, .content-image-box {
+  margin-left: 32px;
+  background-color: #C3BEBE;
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+.fisma-img {
+  height: auto;
+  width: 35%;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.now-img {
+  height: auto;
+  width: 35%;
+  margin-left: 16px;
+}
+.now {
+  margin-left: 32px;
+  display: flex;
+  margin-top: 24px;
+  width: 100%;
+}
+.text-learn-fisma {
+  margin-top: 70px;
+  margin-left: 16px;
+  width: 65%;
+}
+.text-learn-now {
+  margin-top: 50px;
+  margin-left: 16px;
+  width: 65%;
+}
+#thesis-section {
+  display: flex;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  height: 75px;
+  border-top: 1px solid grey;
+  margin-top: 35px;
+  padding-top: 16px;
+  display: flex;
+}
+footer .copyright {
+  flex-grow: 1;
+  padding-left: 24px;
+}
+footer a {
+  margin-right: 24px;
+  font-weight: normal;
+}
+footer h4 {
+  flex-grow: 1;
+}
+footer h4 span {
+  font-size: 14px;
+}
